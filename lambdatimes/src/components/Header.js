@@ -25,6 +25,12 @@ display: flex;
   height: 120px;
   margin-top: 44px;
   padding-bottom: 15px;
+
+  @media (min-width: 1280px) {
+    .header {
+      width: 1280px;
+    }
+  }
 `
 const HeadH1 = styled.h1`
   font-size: 60px;
