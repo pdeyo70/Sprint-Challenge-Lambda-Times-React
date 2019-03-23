@@ -65,6 +65,9 @@ font-size: 9px;
 const CentSpan = styled.span`
   cursor: pointer;
   margin-right: 5%;
+  :hover {
+    text-decoration: underline
+  }
 `
 const ContRight = styled.div`
   display: flex;
