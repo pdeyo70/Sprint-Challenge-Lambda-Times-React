@@ -61,6 +61,9 @@ align-items: center;
 flex-direction: row;
 flex: 3;
 font-size: 9px;
+:last-child {
+  margin-right: 0
+}
 `
 const CentSpan = styled.span`
   cursor: pointer;
